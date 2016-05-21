@@ -12,7 +12,7 @@ default: &default
 development:
   <<: *default
   host: localhost
-  database: partsable
+  database: lapinta
   username: alexey
   password: <%= ENV['DEVELOPMENT_DB_PASS'] %>
 
