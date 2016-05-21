@@ -39,7 +39,12 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.0.0)
+    autoprefixer-rails (6.3.6.1)
+      execjs
     bcrypt (3.1.11)
+    bootstrap (4.0.0.alpha3)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     builder (3.2.2)
     byebug (9.0.4)
     coffee-rails (4.1.1)
@@ -124,6 +129,7 @@ GEM
     rake (11.1.2)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
+    sass (3.4.22)
     spring (1.7.1)
     sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
@@ -155,6 +161,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0.alpha3)
   byebug
   coffee-rails (~> 4.1.0)
   devise
