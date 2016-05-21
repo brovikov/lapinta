@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'devise'
 gem 'dotenv-rails'
+gem 'pg'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
