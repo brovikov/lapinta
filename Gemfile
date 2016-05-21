@@ -24,7 +24,8 @@ gem 'puma'
 gem 'devise'
 gem 'dotenv-rails'
 gem 'pg'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'materialize-sass'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -39,12 +39,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.0.0)
-    autoprefixer-rails (6.3.6.1)
-      execjs
     bcrypt (3.1.11)
-    bootstrap (4.0.0.alpha3)
-      autoprefixer-rails (>= 6.0.3)
-      sass (>= 3.4.19)
     builder (3.2.2)
     byebug (9.0.4)
     coffee-rails (4.1.1)
@@ -83,6 +78,8 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+    materialize-sass (0.97.6)
+      sass (~> 3.3)
     method_source (0.8.2)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
@@ -161,13 +158,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0.0.alpha3)
   byebug
   coffee-rails (~> 4.1.0)
   devise
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
+  materialize-sass
   pg
   puma
   rails (>= 5.0.0.beta1, < 5.1)

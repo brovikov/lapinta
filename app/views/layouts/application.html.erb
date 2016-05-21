@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lapinta</title>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>kupibazar</title>
+      <link rel="manifest" href="/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+    <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= csrf_meta_tags %>
-    <%= action_cable_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
-
   <body>
-    <%= yield %>
+    <div id="wrap">
+    <%= render partial: 'shared/header' %>
+
+      <%= yield %>
+    </div>
+
+    <script>
+      notice_mess = "<%= flash[:notice] %>";
+      alert_mess = "<%= flash[:alert] %>";
+    </script>
   </body>
 </html>
