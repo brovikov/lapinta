@@ -1,0 +1,17 @@
+.logotype {
+ font-family: 'Indie Flower', cursive;
+}
+
+.logotype-shadow {
+  @extend .logotype;
+  padding: 0px 20px 0px 20px;
+  line-height: 100%;
+}
+
+.sub-logo-header {
+  position: absolute;
+  top: 23px;
+  font-size: 12px;
+  color: white;
+  margin-left: -100px;
+}
