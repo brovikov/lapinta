@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
   get 'welcome', to: 'static#welcome'
 
   root to: 'static#welcome'
