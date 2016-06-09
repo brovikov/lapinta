@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reviews
   mount Ckeditor::Engine => '/ckeditor'
   get 'welcome', to: 'static#welcome'
 
