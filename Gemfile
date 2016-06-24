@@ -30,6 +30,8 @@ gem 'sass-rails'
 gem 'ckeditor'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'capybara'
+gem 'poltergeist'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
