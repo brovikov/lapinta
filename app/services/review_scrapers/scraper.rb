@@ -1,8 +1,11 @@
 class Scraper
+  include UserAgents
+  attr_accessor :name, :intro, :body  
   
   def initialize
     @logger = Logger.new(STDOUT)
     @s = Capybara::Session.new(:poltergeist) 
+    set_user_agent(@s)
   end
 
   def log(message)
