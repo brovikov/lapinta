@@ -1,5 +1,4 @@
 class Scraper
-  include Capybara::DSL
   
   def initialize
     @logger = Logger.new(STDOUT)
