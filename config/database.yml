@@ -13,7 +13,7 @@ development:
   <<: *default
   host: localhost
   database: lapinta
-  username: alexey
+  username: alex
   password: <%= ENV['DEVELOPMENT_DB_PASS'] %>
 
 # Warning: The database defined as "test" will be erased and
